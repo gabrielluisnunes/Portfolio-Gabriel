@@ -136,8 +136,8 @@ export const portfolioData: PortfolioData = {
     }
   },
   summary: {
-    pt: "Desenvolvedor Full Stack formado em Análise e Desenvolvimento de Sistemas e em formação em Engenharia de Software, especializado na criação de aplicações web escaláveis e performáticas. Possuo sólido domínio das tecnologias React, Next.js, Node.js, C# (.NET) e Angular, com foco em desenvolver soluções que unem qualidade técnica, boa usabilidade e resultados de negócio.",
-    en: "Full Stack Developer graduated in Systems Analysis and Development and currently pursuing a degree in Software Engineering, specialized in building scalable and high-performance web applications. I have solid expertise in React, Next.js, Node.js, C# (.NET), and Angular, focusing on delivering solutions that integrate technical quality, excellent usability, and business results."
+    pt: "Sou Gabriel Nunes, desenvolvedor full stack de 23 anos, com experiência em Angular, C#, Node.js e React. Atuo no desenvolvimento de aplicações escaláveis e bem estruturadas, com foco em performance, organização de código e boas práticas. Estou sempre buscando evoluir tecnicamente e contribuir com soluções eficientes para problemas reais.",
+    en: "I'm Gabriel Nunes, a 23-year-old full stack developer with experience in Angular, C#, Node.js, and React. I work on developing scalable and well-structured applications, focusing on performance, code organization, and best practices. I'm always seeking to grow technically and contribute efficient solutions to real problems."
   },
   skills: [
     {
