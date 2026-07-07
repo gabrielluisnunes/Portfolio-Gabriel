@@ -260,7 +260,8 @@ export const portfolioData: PortfolioData = {
         pt: "Sistema de gestão para academias de Jiu Jitsu, com controle financeiro de mensalidades, upload e assinatura de contratos/termos, check-in de alunos de treinos com foto (reconhecimento facial), e controle e histórico de graduação de faixas.",
         en: "Management system for Jiu Jitsu academies featuring tuition financial control, contract/terms uploads and e-signatures, training check-in with photos (facial recognition), and graduation and belt history tracking."
       },
-      technologies: ["Next.js 14", "Supabase", "Tailwind CSS", "Stripe", "face-api.js"]
+      technologies: ["Next.js 14", "Supabase", "Tailwind CSS", "Stripe", "face-api.js"],
+      link: "https://www.gestaotatami.com.br/auth/login"
     },
     {
       title: "Propify",
@@ -268,7 +269,8 @@ export const portfolioData: PortfolioData = {
         pt: "Gestão e criação de propostas comerciais com IA, fluxo Kanban inteligente, agenda com Google Calendar integrado, autenticação via Supabase (OAuth) e infraestrutura na Vercel com políticas de segurança RLS no PostgreSQL.",
         en: "AI-powered creation and management of commercial proposals, including a smart Kanban workflow, Google Calendar integration, Supabase OAuth authentication, and Vercel infrastructure with PostgreSQL RLS security policies."
       },
-      technologies: ["Next.js 16", "React 19", "TypeScript", "Supabase", "Kiwify"]
+      technologies: ["Next.js 16", "React 19", "TypeScript", "Supabase", "Kiwify"],
+      link: "https://usepropify.app/"
     },
     {
       title: "MFO (Gestão Financeira)",
