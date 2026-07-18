@@ -121,7 +121,7 @@ export const portfolioData: PortfolioData = {
     email: "gabrielluisnunes@gmail.com",
     github: "https://github.com/gabrielluisnunes",
     linkedin: "https://www.linkedin.com/in/gabriel-luis-parede-nunes/",
-    resumePath: "/Gabriel_Luis_Parede_Nunes_CV.pdf",
+    resumePath: "/Gabriel Luis Parede Nunes.pdf",
     tagline: {
       pt: "Transformando ideias em produtos digitais escaláveis e performáticos.",
       en: "Transforming ideas into scalable and high-performance digital products."

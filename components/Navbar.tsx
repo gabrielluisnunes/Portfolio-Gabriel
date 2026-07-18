@@ -78,11 +78,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? "bg-[#030303]/85 border-b border-white/5 backdrop-blur-md py-4"
           : "bg-transparent py-6"
-      }`}
+        }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
         {/* Logo / Name */}
@@ -102,11 +101,10 @@ export default function Navbar() {
                 <a
                   href={`#${item.id}`}
                   onClick={(e) => handleNavClick(e, item.id)}
-                  className={`text-sm font-medium tracking-wide transition-colors relative py-1 ${
-                    activeSection === item.id
+                  className={`text-sm font-medium tracking-wide transition-colors relative py-1 ${activeSection === item.id
                       ? "text-blue-500 font-semibold"
                       : "text-neutral-400 hover:text-neutral-200"
-                  }`}
+                    }`}
                 >
                   {item.label[language]}
                   {activeSection === item.id && (
@@ -138,7 +136,7 @@ export default function Navbar() {
             {/* Resume Button */}
             <a
               href={portfolioData.personalInfo.resumePath}
-              download="Gabriel_Luis_Parede_Nunes_CV.pdf"
+              download="Gabriel Luis Parede Nunes.pdf"
               className="flex items-center gap-1.5 text-xs font-semibold tracking-wider text-white bg-blue-600 hover:bg-blue-500 px-3.5 py-2 rounded-full border border-blue-500/20 transition-all shadow-md shadow-blue-500/10"
             >
               <Download size={13} />
@@ -184,11 +182,10 @@ export default function Navbar() {
                     <a
                       href={`#${item.id}`}
                       onClick={(e) => handleNavClick(e, item.id)}
-                      className={`text-base font-medium block py-1.5 transition-colors ${
-                        activeSection === item.id
+                      className={`text-base font-medium block py-1.5 transition-colors ${activeSection === item.id
                           ? "text-blue-500 font-semibold"
                           : "text-neutral-400 hover:text-neutral-200"
-                      }`}
+                        }`}
                     >
                       {item.label[language]}
                     </a>
@@ -202,7 +199,7 @@ export default function Navbar() {
               <div className="flex flex-col space-y-4 pb-2">
                 <a
                   href={portfolioData.personalInfo.resumePath}
-                  download="Gabriel_Luis_Parede_Nunes_CV.pdf"
+                  download="Gabriel Luis Parede Nunes.pdf"
                   className="flex items-center justify-center gap-2 text-sm font-semibold tracking-wider text-white bg-blue-600 hover:bg-blue-500 py-3 rounded-full border border-blue-500/20 transition-all shadow-md shadow-blue-500/10"
                 >
                   <Download size={15} />
